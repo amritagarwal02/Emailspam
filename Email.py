@@ -5,7 +5,9 @@ import string
 import nltk
 nltk.download('punkt')
 from nltk.corpus import stopwords
+nltk.download('stopwords')
 from nltk.stem.porter import PorterStemmer
+nltk.download('PorterStemmer')
 
 ps=PorterStemmer()
 
